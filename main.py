@@ -1,9 +1,9 @@
 
 def somma(a, b):
     #scrivi un codice che inserisca a + b dentro risultato
-    #....
+    risultato = a + b
     return risultato
-prim = input("Inserisci il primo numero: ")
-sec = input("Inserisci il secondo numero: ")
-somma(prim, sec)
-print("Risultato:" + str(risultato))
+prim = float(input("Inserisci il primo numero: "))
+sec = float(input("Inserisci il secondo numero: "))
+
+print("Risultato:" + str(somma(prim, sec)))
